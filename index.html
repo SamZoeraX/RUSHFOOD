@@ -4,16 +4,43 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>RUSHFOOD</title>
+    <link rel="stylesheet" href="style/index.css">
 </head>
+
+
 <body>
     <!-- CABEÇALHO -->
    <header>
-        <h1>RushFood</h1>
-        <nav>
+    <div class="topo">
+
+    <div class="logo">
+        <img src="assets/logo.png" alt="Logo do RushFood">
+    </div>
+    <!-- caixa de pesquisa -->
+     <div class="caixa-pesquisa">
+        <input type="text" placeholder="Encontre seu prato favorito...">
+        <img src="assets/pesquisar.png" alt="Ícone de pesquisa">
+     </div>
+     <div class="icones">
+        <a href="">
+            <img src="assets/perfil.png" alt="login">
+            <small>Olá visitante!</small>
+            <p>ENTRAR</p>
+        </a>
+        <a href="">
+            <img src="assets/carrinho.png" alt="carrinho">
+            <small>Meu</small>
+            <p>CARRINHO</p>
+        </a>
+     </div>
+       
+</div>
+        <!-- menu de navegação -->
+        <nav class="menu">
                 <a href="#">Home</a>
                 <a href="#">Mercados</a>
-                <a href="#">Carrinho de compras</a>
-                <a href="#">Bebidas</a></li>
+                <a id="idcarrinho" href="#">Carrinho de compras</a>
+                <a href="#">Bebidas</a>
                 <a href="#">Restaurantes</a>
 
         </nav>
