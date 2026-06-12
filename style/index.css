@@ -93,3 +93,103 @@
         display: flex; /*exibe os elementos em linha*/
         align-items: center; /*alinhamento vertical dos elementos da div icones*/
         gap: 30px; /*espaçamento entre os elementos da div icones*/
+    }
+
+    /* configurando a área do banner*/
+    .imagens-banner  img{
+        display: block; /*exibe os elementos em bloco*/
+        width: 100%; /*largura do banner*/
+        height: auto; /*altura do banner*/
+    }
+    .banner{
+        width: 100vw; /*largura do banner*/
+        height: auto; /*altura do banner*/
+        margin: 0; /*remover margens do banner*/
+        padding: 0; /*remover espaçamento interno do banner*/  
+    }
+
+    .imagens-banner{
+        width: 100%; /*largura das imagens do banner*/
+        position: relative; /*posição relativa para posicionar as imagens do banner*/
+    }
+
+    /*
+    .botoes-banner{
+        position: absolute;
+        top: 60%;
+        left: 10%;
+    }
+
+    .btn-comprar{
+        background-color: #f8a523; 
+        color: white; 
+        border-radius: 10px; 
+        font-family: poppins, sans-serif; 
+        padding: 10px 10px; 
+        border: none;
+    }
+
+    
+    .btn-comprar:hover{
+        background-color: #e6951c; 
+        color: white;
+    }
+
+    .btn-anterior, .btn-proximo{
+        background-color: #ffffff; 
+        color: #f8a523;
+        border-radius: 10px; 
+        font-family: poppins, sans-serif; 
+        border: none; 
+        padding: 5px 20px;
+    }
+
+    .btn-anterior:hover, .btn-proximo:hover{
+        background-color: #e6951c; 
+        color: #ffffff; 
+    }
+    */
+
+    .btn-comprar{
+        position: absolute; 
+        top: 61%; 
+        left: 90%; 
+        background-color: #f8a523; 
+        color: white; 
+        border-radius: 10px; 
+        font-family: poppins, sans-serif; 
+        font-size: 18px; 
+        padding: 5px 20px; 
+        border: none; 
+    }
+
+    .btn-anterior{
+        position: absolute;
+        top: 38%;
+        left: 2%; 
+        background-color: transparent; 
+        color: #f8a523; 
+        border-radius: 50%; 
+        border: none; 
+        padding: 12px; 
+    }
+
+    .btn-proximo{
+        position: absolute;
+        top: 38%;
+        left: 94%; 
+        background-color: transparent;
+        border-radius: 50%; 
+        border: none; 
+        padding: 12px; 
+    }
+
+    .btn-comprar:hover{
+        background-color: #e6951c; 
+        color: white;
+    }
+
+    .btn-anterior:hover, .btn-proximo:hover{
+        background-color: #e6951c; 
+        color: white; 
+    }
