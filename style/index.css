@@ -1,119 +1,178 @@
 /* COLOCANDO COR DE FUNDO NO CABEÇALHO*/
-    header {
-        background-color: #F8A523; /*cor de fundo do cabeçalho*/
-        font-family: poppins, sans-serif; /*fonte do cabeçalho*/
-        color: white; /*cor do texto do cabeçalho*/
-    }
+header {
+    background-color: #F8A523;
+    /*cor de fundo do cabeçalho*/
+    font-family: poppins, sans-serif;
+    /*fonte do cabeçalho*/
+    color: white;
+    /*cor do texto do cabeçalho*/
+}
 
-    nav a{
-        color: white; /*cor dos links do menu*/
-        text-decoration: none; /*remover sublinhado dos links*/
-        margin: 0 10px; /*espaçamento entre os links*/
-    }
-    nav{
-        text-align: center; /*alinhamento do texto dos links*/
-        border-color: white; /*cor da borda do menu*/
-        border-width: 1px; /*largura da borda do menu*/
-        border-style: solid; /*estilo da borda do menu*/
-        padding: 5px; /*distância entre as bordas do menu de navegação*/
-    }
+nav a {
+    color: white;
+    /*cor dos links do menu*/
+    text-decoration: none;
+    /*remover sublinhado dos links*/
+    margin: 0 10px;
+    /*espaçamento entre os links*/
+}
 
-    .logo img{
-        height: 110px; /*altura da imagem do logo*/
-        width: 110px; /*largura da imagem do logo*/
-    }
+nav {
+    text-align: center;
+    /*alinhamento do texto dos links*/
+    border-color: white;
+    /*cor da borda do menu*/
+    border-width: 1px;
+    /*largura da borda do menu*/
+    border-style: solid;
+    /*estilo da borda do menu*/
+    padding: 5px;
+    /*distância entre as bordas do menu de navegação*/
+}
 
-    /* configurando a caixa de pesquisa */
-    .caixa-pesquisa input {
-        padding: 10px; /*espaçamento interno da caixa de pesquisa*/
-        border: 1px solid #ccc; /*borda da caixa de pesquisa*/
-        border-radius: 10px; /*arredondamento dos cantos da caixa de pesquisa*/
-        font-family: poppins, sans-serif; /*fonte da caixa de pesquisa*/
-        width: 300px; /*largura da caixa de pesquisa*/
-        height: auto; /*altura da caixa de pesquisa*/
-        padding-left: 50px; /*espaçamento interno do placeholder para evitar sobreposição com o ícone de pesquisa*/
-    }
+.logo img {
+    height: 110px;
+    /*altura da imagem do logo*/
+    width: 110px;
+    /*largura da imagem do logo*/
+}
 
-    /*configurando a div da pesquisa*/
-    .caixa-pesquisa {
-        display: flex; /*exibe os elementos em linha*/
-        margin-top: 10px; /*espaçamento superior da caixa de pesquisa*/
-        justify-content: center; /*alinhamento horizontal da caixa de pesquisa*/
-        margin-bottom: 10px; /*espaçamento inferior da caixa de pesquisa*/
-        position: relative; /*posição relativa para posicionar o ícone de pesquisa*/
-    }
+/* configurando a caixa de pesquisa */
+.caixa-pesquisa input {
+    padding: 10px;
+    /*espaçamento interno da caixa de pesquisa*/
+    border: 1px solid #ccc;
+    /*borda da caixa de pesquisa*/
+    border-radius: 10px;
+    /*arredondamento dos cantos da caixa de pesquisa*/
+    font-family: poppins, sans-serif;
+    /*fonte da caixa de pesquisa*/
+    width: 300px;
+    /*largura da caixa de pesquisa*/
+    height: auto;
+    /*altura da caixa de pesquisa*/
+    padding-left: 50px;
+    /*espaçamento interno do placeholder para evitar sobreposição com o ícone de pesquisa*/
+}
 
-    /* alinhar as divs do cabeçalho */
-    .topo{
-        display: flex; /*exibe os elementos em linha*/
-        align-items: center; /*alinhamento vertical dos elementos do cabeçalho*/
-        justify-content: space-between; /*alinhamento horizontal dos elementos do cabeçalho*/
-        /*distribuição dos elementos com espaço entre eles*/
-    }
+/*configurando a div da pesquisa*/
+.caixa-pesquisa {
+    display: flex;
+    /*exibe os elementos em linha*/
+    margin-top: 10px;
+    /*espaçamento superior da caixa de pesquisa*/
+    justify-content: center;
+    /*alinhamento horizontal da caixa de pesquisa*/
+    margin-bottom: 10px;
+    /*espaçamento inferior da caixa de pesquisa*/
+    position: relative;
+    /*posição relativa para posicionar o ícone de pesquisa*/
+}
 
-    /* configurando os icones*/
-    .caixa-pesquisa img{
-        height: 20px; /*altura dos icones*/
-        width: 20px; /*largura dos icones*/
-        position: absolute; /*posição absoluta para posicionar o ícone de pesquisa*/
-        left: 10px; /*distância do ícone de pesquisa em relação à borda esquerda da caixa de pesquisa*/
-        top: 50%; /*alinhamento vertical do ícone de pesquisa*/
-        transform: translateY(-50%); /*ajuste para centralizar o ícone de pesquisa verticalmente*/
-    }
+/* alinhar as divs do cabeçalho */
+.topo {
+    display: flex;
+    /*exibe os elementos em linha*/
+    align-items: center;
+    /*alinhamento vertical dos elementos do cabeçalho*/
+    justify-content: space-between;
+    /*alinhamento horizontal dos elementos do cabeçalho*/
+    /*distribuição dos elementos com espaço entre eles*/
+}
 
-    .caixa-pesquisa placeholder{
-        padding-left: 30px; /*espaçamento interno do placeholder para evitar sobreposição com o ícone de pesquisa*/
-    }
+/* configurando os icones*/
+.caixa-pesquisa img {
+    height: 20px;
+    /*altura dos icones*/
+    width: 20px;
+    /*largura dos icones*/
+    position: absolute;
+    /*posição absoluta para posicionar o ícone de pesquisa*/
+    left: 10px;
+    /*distância do ícone de pesquisa em relação à borda esquerda da caixa de pesquisa*/
+    top: 50%;
+    /*alinhamento vertical do ícone de pesquisa*/
+    transform: translateY(-50%);
+    /*ajuste para centralizar o ícone de pesquisa verticalmente*/
+}
 
-    .icones a img{
-        height: 35px; /*altura dos ícones de redes sociais*/
-        width: 35px; /*largura dos ícones de redes sociaispx; /*espaçamento entre os ícones de redes sociais*/
-        margin-right: 20px; /*espaçamento entre os ícones de redes sociais*/
-    }
+.caixa-pesquisa placeholder {
+    padding-left: 30px;
+    /*espaçamento interno do placeholder para evitar sobreposição com o ícone de pesquisa*/
+}
 
-    .icones a small{
-        font-size: 10px; /*tamanho da fonte dos textos dos ícones de redes sociais*/
-        display: block; /*exibe os textos dos ícones de redes sociais em bloco*/
-        color: white; /*cor dos textos dos ícones de redes sociais*/
-    }
+.icones a img {
+    height: 35px;
+    /*altura dos ícones de redes sociais*/
+    width: 35px;
+    /*largura dos ícones de redes sociaispx; /*espaçamento entre os ícones de redes sociais*/
+    margin-right: 20px;
+    /*espaçamento entre os ícones de redes sociais*/
+}
 
-    .icones a p{
-        font-size: 12px; /*tamanho da fonte dos textos dos ícones de redes sociais*/
-        display: block; /*exibe os textos dos ícones de redes sociais em bloco*/
-        color: white; /*cor dos textos dos ícones de redes sociais*/
-    }
+.icones a small {
+    font-size: 10px;
+    /*tamanho da fonte dos textos dos ícones de redes sociais*/
+    display: block;
+    /*exibe os textos dos ícones de redes sociais em bloco*/
+    color: white;
+    /*cor dos textos dos ícones de redes sociais*/
+}
 
-    .icones a{
-        text-decoration: none; /*remover sublinhado dos links dos ícones de redes sociais*/
-    }
+.icones a p {
+    font-size: 12px;
+    /*tamanho da fonte dos textos dos ícones de redes sociais*/
+    display: block;
+    /*exibe os textos dos ícones de redes sociais em bloco*/
+    color: white;
+    /*cor dos textos dos ícones de redes sociais*/
+}
+
+.icones a {
+    text-decoration: none;
+    /*remover sublinhado dos links dos ícones de redes sociais*/
+}
 
 
-    /*configurando a div icones*/
-    .icones{
-        display: flex; /*exibe os elementos em linha*/
-        align-items: center; /*alinhamento vertical dos elementos da div icones*/
-        gap: 30px; /*espaçamento entre os elementos da div icones*/
-    }
+/*configurando a div icones*/
+.icones {
+    display: flex;
+    /*exibe os elementos em linha*/
+    align-items: center;
+    /*alinhamento vertical dos elementos da div icones*/
+    gap: 30px;
+    /*espaçamento entre os elementos da div icones*/
+}
 
-    /* configurando a área do banner*/
-    .imagens-banner  img{
-        display: block; /*exibe os elementos em bloco*/
-        width: 100%; /*largura do banner*/
-        height: auto; /*altura do banner*/
-    }
-    .banner{
-        width: 100vw; /*largura do banner*/
-        height: auto; /*altura do banner*/
-        margin: 0; /*remover margens do banner*/
-        padding: 0; /*remover espaçamento interno do banner*/  
-    }
+/* configurando a área do banner*/
+.imagens-banner img {
+    display: block;
+    /*exibe os elementos em bloco*/
+    width: 100%;
+    /*largura do banner*/
+    height: auto;
+    /*altura do banner*/
+}
 
-    .imagens-banner{
-        width: 100%; /*largura das imagens do banner*/
-        position: relative; /*posição relativa para posicionar as imagens do banner*/
-    }
+.banner {
+    width: 100vw;
+    /*largura do banner*/
+    height: auto;
+    /*altura do banner*/
+    margin: 0;
+    /*remover margens do banner*/
+    padding: 0;
+    /*remover espaçamento interno do banner*/
+}
 
-    /*
+.imagens-banner {
+    width: 100%;
+    /*largura das imagens do banner*/
+    position: relative;
+    /*posição relativa para posicionar as imagens do banner*/
+}
+
+/*
     .botoes-banner{
         position: absolute;
         top: 60%;
@@ -150,46 +209,251 @@
     }
     */
 
-    .btn-comprar{
-        position: absolute; 
-        top: 61%; 
-        left: 90%; 
-        background-color: #f8a523; 
-        color: white; 
-        border-radius: 10px; 
-        font-family: poppins, sans-serif; 
-        font-size: 18px; 
-        padding: 5px 20px; 
-        border: none; 
-    }
+.btn-comprar {
+    position: absolute;
+    top: 61%;
+    left: 90%;
+    background-color: #f8a523;
+    color: white;
+    border-radius: 10px;
+    font-family: poppins, sans-serif;
+    font-size: 18px;
+    padding: 5px 20px;
+    border: none;
+}
 
-    .btn-anterior{
-        position: absolute;
-        top: 38%;
-        left: 2%; 
-        background-color: transparent; 
-        color: #f8a523; 
-        border-radius: 50%; 
-        border: none; 
-        padding: 12px; 
-    }
+.btn-anterior {
+    position: absolute;
+    top: 38%;
+    left: 2%;
+    background-color: transparent;
+    color: #f8a523;
+    border-radius: 50%;
+    border: none;
+    padding: 12px;
+}
 
-    .btn-proximo{
-        position: absolute;
-        top: 38%;
-        left: 94%; 
-        background-color: transparent;
-        border-radius: 50%; 
-        border: none; 
-        padding: 12px; 
-    }
+.btn-proximo {
+    position: absolute;
+    top: 38%;
+    left: 94%;
+    background-color: transparent;
+    border-radius: 50%;
+    border: none;
+    padding: 12px;
+}
 
-    .btn-comprar:hover{
-        background-color: #e6951c; 
-        color: white;
-    }
+.btn-comprar:hover {
+    background-color: #e6951c;
+    color: white;
+}
 
-    .btn-anterior:hover, .btn-proximo:hover{
-        background-color: #e6951c; 
-        color: white; 
-    }
+.btn-anterior:hover,
+.btn-proximo:hover {
+    background-color: #e6951c;
+    color: white;
+}
+
+/* configurando a área de ofertas*/
+
+/*configurando a área de ofertas*/
+
+.ofertas {
+    padding: 20px;
+    /*DISTANCIA ENTRE O CONTEÚDO DA DIV
+     DE OFERTAS E AS BORDAS DA DIV */
+
+}
+
+/*configurando os textos das ofertas*/
+.titulo-ofertas {
+    font-family: poppins, sans-serif;
+    /*FONTE DO TÍTULO DAS OFERTAS */
+    display: grid;
+    /*EXIBE OS ELEMENTOS EM GRADE */
+    grid-template-columns: 2 80% 20%;
+    /*DEFINE O TAMANHO DAS COLUNAS DA GRADE */
+    grid-template-rows: 2 50% 50%;
+    /*DEFINE O TAMANHO DAS LINHAS DA GRADE */
+
+
+}
+
+.titulo-ofertas h2 {
+    color: #2E3F4F;
+    /*COR DO TÍTULO DAS OFERTAS */
+    font-size: 24px;
+    /*TAMANHO DA FONTE DO TÍTULO DAS OFERTAS */
+    grid-column: 1;
+    /*OCUPA A PRIMEIRA COLUNA DA GRADE PARA ALINHAR O 
+    TÍTULO AO LADO DIREITO DO ÍCONE */
+    grid-row: 1;
+    /*OCUPA A PRIMEIRA LINHA DA GRADE PARA ALINHAR O 
+    TÍTULO VERTICALMENTE COM O ÍCONE */
+    margin: 0;
+    /*REMOVE A MARGEM PADRÃO DO ELEMENTO H2 */
+}
+
+.titulo-ofertas p {
+    color: #e6951c;
+    /*COR DO SUBTÍTULO DAS OFERTAS */
+    font-size: 14px;
+    /*TAMANHO DA FONTE DO SUBTÍTULO DAS OFERTAS */
+    grid-column: 1;
+    /*OCUPA A PRIMEIRA COLUNA DA GRADE PARA ALINHAR O 
+    SUBTÍTULO AO LADO DIREITO DO ÍCONE */
+    grid-row: 2;
+    /*OCUPA A SEGUNDA LINHA DA GRADE PARA ALINHAR O 
+    SUBTÍTULO VERTICALMENTE COM O ÍCONE */
+
+}
+
+.titulo-ofertas a {
+    text-decoration: none;
+    /*REMOVE O SUBLINHADO DOS LINKS */
+    color: #e6951c;
+    /*COR DO LINK DO TÍTULO DAS OFERTAS */
+    font-size: 14px;
+    /*TAMANHO DA FONTE DO LINK DO TÍTULO DAS OFERTAS */
+    grid-column: 2;
+    /*OCUPA A SEGUNDA COLUNA DA GRADE PARA ALINHAR O 
+    LINK AO LADO DIREITO DO TÍTULO E SUBTÍTULO */
+    grid-row: 2;
+    /*OCUPA AS DUAS LINHAS DA GRADE PARA ALINHAR O 
+    LINK VERTICALMENTE COM O TÍTULO E SUBTÍTULO */
+    align-self: center;
+    /*ALINHA O LINK VERTICALMENTE NO CENTRO DA GRADE */
+    margin-top: 0;
+    /*REMOVE A MARGEM PADRÃO DO ELEMENTO A */
+    padding-left: 80%;
+    /*DISTANCIA ENTRE O LINK E O TÍTULO E SUBTÍTULO */
+}
+
+.lista-produtos {
+    display: flex;
+    /*EXIBE OS ELEMENTOS EM LINHA */
+    justify-content: space-between;
+    /*DISTRIBUIÇÃO DOS ELEMENTOS COM ESPAÇO ENTRE ELES */
+    font-family: poppins, sans-serif;
+    /*FONTE DOS PRODUTOS */
+    margin-top: 20px;
+    /*MARGEM SUPERIOR DA LISTA DE PRODUTOS */
+}
+
+.card-produtos {
+    width: 10%;
+    /*LARGURA DE CADA CARD DE PRODUTO */
+    height: 50%;
+    /*ALTURA DE CADA CARD DE PRODUTO */
+    background-color: #f1f1f1;
+    /*COR DE FUNDO DE CADA CARD DE PRODUTO */
+    border: 1px solid #ccc;
+    /*BORDA DE CADA CARD DE PRODUTO */
+    border-radius: 10px;
+    /*ARREDONDAMENTO DAS BORDAS DE CADA CARD DE PRODUTO */
+    padding: 10px;
+    /*DISTANCIA ENTRE O CONTEÚDO DO CARD E AS BORDAS DO CARD */
+    text-align: center;
+    /*ALINHAMENTO DO TEXTO NO CENTRO DO CARD */
+}
+
+.card-produtos img {
+    width: 100%;
+    /*LARGURA DA IMAGEM DO PRODUTO */
+    height: auto;
+    /*ALTURA DA IMAGEM DO PRODUTO */
+    margin-bottom: 10px;
+    /*MARGEM INFERIOR DA IMAGEM DO PRODUTO */
+    border-radius: 10px;
+    /*ARREDONDAMENTO DAS BORDAS DA IMAGEM DO PRODUTO */
+
+}
+
+.imagem-botao {
+    position: relative;
+    /*POSIÇÃO RELATIVA PARA POSICIONAR O BOTÃO DE 
+    favorito DO CARD DE PRODUTO */
+}
+
+.favorito {
+    position: absolute;
+    border: none;
+    border-radius: 50%;
+    background-color: transparent;
+    top: 10px;
+    right: 10px;
+    padding: 10px;
+
+}
+.favorito img {
+    width: 20px;
+    height: 20px;
+}
+
+.card-produtos h3 {
+    font-size: 18px;
+    /*tamanho da fonte do nome dos produtos*/
+    font-family: poppins, sans-serif;
+    /*fonte do nome dos produtos*/
+    color: #2e2c2a;
+    /*cor do nome dos produtos*/
+    font-style: bold;
+    /*estilo da fonte do nome dos produtos*/
+}
+
+/*configurando o botão de adicionar ao carrinho*/
+.btn-adicionar {
+    border-radius: 30%;
+    /*arredondamento das bordas do botão de adicionar ao carrinho*/
+    background-color: #f8a523;
+    /*cor de fundo do botão de adicionar ao carrinho*/
+    border: none;
+    /*remover borda do botão de adicionar ao carrinho*/
+    margin-left: 45%;
+    /*distância do botão de adicionar ao carrinho em relação à borda esquerda do card de produto*/
+}
+
+.btn-adicionar img {
+    width: 30px;
+    /*largura do ícone de adicionar ao carrinho*/
+    padding-top: 5px;
+    /*distância do ícone de adicionar ao carrinho em relação à borda superior do botão de adicionar ao carrinho*/
+}
+
+.precos{
+    display: grid; /* permite colocar itens um ao lado do outro*/
+    grid-template-columns: 2; /*duas colunas*/
+    grid-template-rows: 1; /*uma linha*/
+    align-items: center; /*alinha os itens verticalmente no centro*/
+}
+
+.p-antigo{
+    grid-column: 1;
+    grid-row: 1;
+    text-decoration: line-through; /*risca o preço antigo para indicar que está em promoção*/
+    font-size: 12px; /*tamanho da fonte do preço antigo*/
+    color: #666363
+}
+
+.p-promocional{
+    grid-column: 2;
+    grid-row: 1;
+    text-decoration: bold;
+    font-size: 18px;
+    color: #e6951c;
+    text-align: left;
+}
+
+.btn-card{
+    display: flex;
+    align-items: center;
+    gap: 10px; /*espaçamento entre os elementos*/
+}
+
+.btn-card img{
+    width: 24px;
+}
+
+.btn-card h5{
+    font-size: 14px;
+}
