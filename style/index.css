@@ -457,3 +457,60 @@ nav {
 .btn-card h5{
     font-size: 14px;
 }
+
+/*configurações de rodapé*/
+
+footer{
+    background-color: #e6951c; /*cor de fundo*/
+    color: #1b1a1a; /* todos os textos da cor preta*/
+    font-family: poppins, sans-serif; /*tipo de fonte*/
+    padding: 10px; /* espaçamento dentro do rodapé*/
+}
+
+.superior{
+    display: flex; /*permitir flexibilidade entre as colunas*/
+    gap: 10px; /*espaçamento entre as div's*/
+    justify-content: space-between; /*define um tamanho igual entre as divs*/
+    Flex-wrap: wrap; /*joga os textos para a linha caso não possa caber na div*/
+}
+
+.inferior{
+    display: flex; /*permitir flexibilidade entre as colunas*/
+    gap: 20px; /*espaçamento entre as div's*/
+    justify-content: space-between; /*define um tamanho igual entre as divs*/
+    Flex-wrap: wrap; /*joga os textos para a linha caso não possa caber na div*/
+    align-items: center; /*alinha os paragrafos no centro*/
+}
+
+.coluna1, .coluna2, .coluna3{
+    flex: 1; /*que cada coluna ocupe 1 espaço na página*/
+}
+
+.superior h2{
+    font-size: 25px; /*tamanho dos titulos*/
+    font-weight: bold; /*apliquei um negrito aos titulos*/
+}
+
+.superior p{
+    font-size: 27px; /*tamanho dos paragrafos*/
+}
+
+.superior a{
+    color: #1b1a1a; /*cor dos links*/
+    font-size: 20px; /*tamanho dos paragrafos*/
+    text-decoration: none; /*remove o sublinado*/
+}
+
+.superior ul{
+    text-decoration: none; /*retira a decoração do texto*/
+    list-style: none; /*retirar a decoração da lista*/
+    padding: 0px; /*retirar os espalamentos*/
+}
+
+.superior img{
+    width: 25px; /*definir tamanho dos icones*/
+}
+
+.coluna3 a img{
+    padding-right: 60px; /*distanciar a imagem do endereço*/
+}
