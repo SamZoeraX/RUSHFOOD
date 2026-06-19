@@ -480,6 +480,7 @@ footer{
     justify-content: space-between; /*define um tamanho igual entre as divs*/
     Flex-wrap: wrap; /*joga os textos para a linha caso não possa caber na div*/
     align-items: center; /*alinha os paragrafos no centro*/
+    border-top: #f1f1f1 solid 2px; /*linha entre o rodapé superior e inferior*/
 }
 
 .coluna1, .coluna2, .coluna3{
@@ -513,4 +514,31 @@ footer{
 
 .coluna3 a img{
     padding-right: 60px; /*distanciar a imagem do endereço*/
+}
+
+.inferior p{
+    font-size: 10px; /*tamanho do texto*/
+}
+
+.inferior .link{
+    display: flex; /*tornar os links flexiveis as mudanças de tela*/
+    font-size: 10px; /*tamanho de texto*/
+    color: #FFFFFF; /*cor de texto branca*/
+    gap: 20px; /*distanciar os links*/
+}
+
+.links a{
+    text-decoration: none; /*remover sublinhado*/
+    color: #FFFFFF; /*cor de texto branca*/
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    overflow-x: hidden; /*remove a barra de rolagem horizontal*/
+    width: 100%; /*preencher sempre 100% da tela*/
 }
